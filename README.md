@@ -27,7 +27,7 @@
   <li>Tree 및 FileSystemView를 활용하여 현재 컴퓨터의 파일 트리 출력</li>
   <li>TreeSelectionListener를 활용하여 선택한 폴더 받아오며, JTable을 활용하여 리스트 출력 및 필요 시 선택한 폴더 삭제 기능 구현</li>
   <li>JProgressBar를 사용하여 작업 진행내용이 표시<br>
-      멀티 쓰레드를 사용하여 사용자가 설정한 쓰레드 개수(ⓔ)를 활용하여 작업 진행</li>
+      멀티 쓰레드를 사용하여 사용자가 설정한 쓰레드 개수(⑤)를 활용하여 작업 진행</li>
   <li>JTabbedPane을 사용하여 하나의 공간에서 옵션 선택할 수 있게 진행.<br>
       JSlider를 사용하여 각각의 옵션 쉽게 변경할 수 있도록 설정</li>
   <li>JTextFiled를 사용하여 현재 진행사항 표시(로그)</li>
