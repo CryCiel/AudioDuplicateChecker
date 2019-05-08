@@ -21,7 +21,7 @@
 </ul>
 
 # 화면 설명
-<img src="https://postfiles.pstatic.net/MjAxOTA1MDhfMTg2/MDAxNTU3Mjk0NzM3MzUy.LlFVVhXhQiFJAaIAmvSfQW7lY_0jI54TFV2129269Gkg.HI0CqsM6t9iCEdVX89lmlpZYUb1DprJ65LFSHwsdhLsg.PNG.younggu1545/%EA%B7%B8%EB%A6%BC27.png?type=w966"/>
+<img src="https://postfiles.pstatic.net/MjAxOTA1MDhfMTA1/MDAxNTU3Mjk1ODgzMDk1.QkoEWYGqPUn9cU7ywbIgfIYxr9A0IJvEX6fhNncfGPYg.RV1c4Lz4JMXayJFf-7Lmk9ZuoyigaXG9VNs3d5IUeqUg.PNG.younggu1545/%EA%B7%B8%EB%A6%BC37.png?type=w966"/>
 <ol>
   <li>Map(Key, List)를 활용하여 중복된 음원 파일로 검사된 파일들을 그룹별로 표시</li>
   <li>Tree 및 FileSystemView를 활용하여 현재 컴퓨터의 파일 트리 출력</li>
@@ -31,5 +31,5 @@
   <li>JTabbedPane을 사용하여 하나의 공간에서 옵션 선택할 수 있게 진행.<br>
       JSlider를 사용하여 각각의 옵션 쉽게 변경할 수 있도록 설정</li>
   <li>JTextFiled를 사용하여 현재 진행사항 표시(로그)</li>
-  <li>1에서 선택한 파일 위치 표시</li>
+  <li>①에서 선택한 파일 위치 표시</li>
 </ol>
