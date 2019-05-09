@@ -47,3 +47,28 @@
   <li>작업 완료 후 작업 시 사용한 파일 삭제</li>
   <li>검사 완료 된 리스트 출력</li>
 </ol>
+
+# 클래스 다이어그램
+<img src="https://postfiles.pstatic.net/MjAxOTA1MDhfMTkw/MDAxNTU3Mjk0NzM3NDA2.3AQ2q4_JaIyV1SVEZoh9W3ZchWRGW4gv68z4uDyrI6sg.EqBsXU0a6NXF7_rrbDLt3-VBnXvQw0FIiNzchQnEkMMg.PNG.younggu1545/%EA%B7%B8%EB%A6%BC30.png?type=w966"/>
+<ul>
+  <li>작업 시 ReadFile, FileConverter, WavCutting, MuachChecker, DeleteConvertFile 순으로 작업
+    <ul>
+      <li>ReadFile 클래스는 선택한 폴더내에서 파일을 읽어올 때 사용</li>
+      <li>FileConverter 클래스는 읽어온 파일이 mp3일 경우 wav 파일로 변환하기 위해 사용</li>
+      <li>WavCutting 클래스는 wav로 변환된 파일을 비교구간으로 설정한 시간에 맞게 파일을 자를 때 사용</li>
+      <li>MatchChecker 클래스는 잘라진 파일들을 비교할 때 사용</li>
+      <li>DeleteConvert 클래스는 작업 완료 후 작업시 사용한 파일을 삭제할 때 사용</li>
+    </ul>
+  </li>
+  <li>변환시 사용하는 쓰레드와 비교 분석시 사용하는 쓰레드로 나뉘어져 있고, 각각 ThreadSuper을 상속받아 사용</li>
+  <li>작업 프로세스 Commpare 클래스에서 관리</li>
+</ul>
+
+# 동작 코드 - ConverterThread
+<img src="https://postfiles.pstatic.net/MjAxOTA1MDhfMjE2/MDAxNTU3Mjk0NzM3NDE0.qV903S2SzAs1VUkNsBQyI3AYx5_igutmSpGD56dd-RYg.xLJn3iLOa2VqvYfqlv7irhQ1OK5FmYdBuLHPW7gi7uUg.PNG.younggu1545/%EA%B7%B8%EB%A6%BC32.png?type=w966"/>
+
+# 동작 코드 - CompareThread
+<img src="https://postfiles.pstatic.net/MjAxOTA1MDhfMjkg/MDAxNTU3Mjk0NzM3NDA0.8NkEBvvOdBCMS6pLp8JETnDeFq_Iz2V_3xlpup_T1Psg.tT80vzdkFIj22xSGp43brRW1dmlbClRV2eihZvFM7tIg.PNG.younggu1545/%EA%B7%B8%EB%A6%BC33.png?type=w966"/>
+
+# 동작 코드 - 중복 음원 그룹 생성
+<img src="https://postfiles.pstatic.net/MjAxOTA1MDhfMTAx/MDAxNTU3Mjk0NzM3NTgx.f6Ee-55DVeLPk55N_6Juqo5IInwhYBoxyrZ-SNdYJfEg.3abd63NGr58nBS777UFa_f4t_DFT1VNwS4l-sOipNRcg.PNG.younggu1545/%EA%B7%B8%EB%A6%BC34.png?type=w966"/>
