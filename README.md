@@ -74,4 +74,4 @@
 <img src="https://postfiles.pstatic.net/MjAxOTA1MDhfMTAx/MDAxNTU3Mjk0NzM3NTgx.f6Ee-55DVeLPk55N_6Juqo5IInwhYBoxyrZ-SNdYJfEg.3abd63NGr58nBS777UFa_f4t_DFT1VNwS4l-sOipNRcg.PNG.younggu1545/%EA%B7%B8%EB%A6%BC34.png?type=w966"/>
 
 # 프로그램 성능
-<img src="https://postfiles.pstatic.net/MjAxOTA1MDhfMTg2/MDAxNTU3Mjk0NzM3MzUy.LlFVVhXhQiFJAaIAmvSfQW7lY_0jI54TFV2129269Gkg.HI0CqsM6t9iCEdVX89lmlpZYUb1DprJ65LFSHwsdhLsg.PNG.younggu1545/%EA%B7%B8%EB%A6%BC27.png?type=w966"/>
+<img src="https://postfiles.pstatic.net/MjAxOTA1MDlfMTgw/MDAxNTU3MzY5OTg2NjQ4.C7uik32wFmtxmmYnHnS_JPbJ9TiRTgq2u0FTaiKBkqMg.4_BApiiTQEI2yQ1a7Z3A-56n-ZGl6W-MKX-6AnyWYU8g.PNG.younggu1545/%EA%B7%B8%EB%A6%BC1.png?type=w966"/>
